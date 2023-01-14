@@ -46,15 +46,17 @@ brew install tmux
 
 echo "SUCCESSFULLY INSTALLED TMUX"
 
-echo "INSTALLING ALACRITTY"
+# CASKS
 
+echo "INSTALLING ALACRITTY"
 brew install alacritty
 sh alacritty/link.sh
-
 echo "SUCCESSFULLY INSTALLED ALACRITTY - linked configuration file"
 
 echo "INSTALLING VISUAL STUDIO CODE"
-
 brew install visual-studio-code
-
 echo "SUCCESSFULLY INSTALLED VISUAL STUDIO CODE"
+
+echo "INSTALLING RECTANGLE"
+brew install rectangle
+echo "SUCCESSFULLY INSTALLED RECTANGLE"
