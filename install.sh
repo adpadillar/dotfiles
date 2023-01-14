@@ -50,3 +50,11 @@ echo "INSTALLING ALACRITTY"
 
 brew install alacritty
 sh alacritty/link.sh
+
+echo "SUCCESSFULLY INSTALLED ALACRITTY - linked configuration file"
+
+echo "INSTALLING VISUAL STUDIO CODE"
+
+brew install visual-studio-code
+
+echo "SUCCESSFULLY INSTALLED VISUAL STUDIO CODE"
