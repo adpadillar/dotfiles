@@ -1,9 +1,6 @@
 # brew
 sh brew/install.sh
 
-# ohmyzsh
-sh ohmyzsh/install.sh
-
 # nvm
 sh nvm/install.sh
 
@@ -34,3 +31,6 @@ sh visual-studio-code/install.sh
 
 # rectangle
 sh rectangle/install.sh
+
+# ohmyzsh
+sh ohmyzsh/install.sh
