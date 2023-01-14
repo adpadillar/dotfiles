@@ -1,0 +1,3 @@
+echo "INSTALLING NEOFETCH"
+brew install neofetch
+echo "SUCCESFULLY INSTALLED NEOFETCH"

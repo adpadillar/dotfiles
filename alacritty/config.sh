@@ -9,3 +9,5 @@ mkdir -p $ALACRITTY_PATH
 
 # Symlink
 ln -s $PWD/alacritty/$CONFIG_FILE $ALACRITTY_PATH/$CONFIG_FILE
+
+echo "LINKED ALACRITTY CONFIG"

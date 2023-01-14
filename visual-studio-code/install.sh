@@ -1,0 +1,3 @@
+echo "INSTALLING VISUAL STUDIO CODE"
+brew install visual-studio-code
+echo "SUCCESSFULLY INSTALLED VISUAL STUDIO CODE"

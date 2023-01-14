@@ -1,48 +1,36 @@
-echo "INSTALLING BREW"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo '# Set PATH, MANPATH, etc., for Homebrew.' >> $HOME/.zprofile
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-source $HOME/.zprofile
-echo "SUCCESSFULLY INSTALLED BREW"
+# brew
+sh brew/install.sh
 
-echo "INSTALLING OH MY ZSH"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-source $HOME/.zshrc
-echo "SUCCESSFULLY INSTALLED OH MY ZSH"
+# ohmyzsh
+sh ohmyzsh/install.sh
 
-echo "INSTALLING NVM"
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-echo 'export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"' >> $HOME/.zshrc
-echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm' >> $HOME/.zshrc
-source $HOME/.zshrc
-echo "SUCCESSFULLY INSTALLED NVM"
+# nvm
+sh nvm/install.sh
 
-echo "INSTALLING NODE 16"
-nvm install 16
-echo "SUCCESSFULLY INSTALLED NODE 16"
-echo "SUCCESFULLY INSTALLED NODE 16"
+# node 16 w/yarn
+sh node/16/install.sh && sh node/16/yarn/install.sh
 
-echo "INSTALLING YARN"
-corepack enable
-corepack prepare yarn@stable --activate
-echo "SUCCESFULLY INSTALLED YARN"
+# neofetch
+sh neofetch/install.sh
 
-echo "INSTALLING TMUX"
-brew install tmux
-echo "SUCCESSFULLY INSTALLED TMUX"
+# bat
+sh bat/install.sh
 
-# CASKS
+# htop
+sh htop/install.sh
 
-echo "INSTALLING ALACRITTY"
-brew install alacritty
-sh alacritty/link.sh
-echo "SUCCESSFULLY INSTALLED ALACRITTY - linked configuration file"
+# gnupg
+sh gnupg/install.sh
 
-echo "INSTALLING VISUAL STUDIO CODE"
-brew install visual-studio-code
-echo "SUCCESSFULLY INSTALLED VISUAL STUDIO CODE"
+# tmux
+sh tmux/install.sh
 
-echo "INSTALLING RECTANGLE"
-brew install rectangle
-echo "SUCCESSFULLY INSTALLED RECTANGLE"
+# alacritty
+sh alacritty/install.sh
+sh alacritty/config.sh
+
+# visual-studio-code
+sh visual-studio-code/install.sh
+
+# rectangle
+sh rectangle/install.sh

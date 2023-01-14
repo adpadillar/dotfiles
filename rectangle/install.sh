@@ -1,0 +1,3 @@
+echo "INSTALLING RECTANGLE"
+brew install rectangle
+echo "SUCCESSFULLY INSTALLED RECTANGLE"

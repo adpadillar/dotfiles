@@ -1,0 +1,3 @@
+echo "INSTALLING TMUX"
+brew install tmux
+echo "SUCCESSFULLY INSTALLED TMUX"

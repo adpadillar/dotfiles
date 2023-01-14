@@ -1,0 +1,3 @@
+echo "INSTALLING HTOP"
+brew install htop
+echo "SUCCESFULLY INSTALLED HTOP"
