@@ -1,11 +1,11 @@
+# brew
+sh brew/install.sh
+
 # ohmyzsh
 sh ohmyzsh/install.sh
 
 # nvm
 sh nvm/install.sh
-
-# brew
-sh brew/install.sh
 
 source $HOME/.zprofile
 
