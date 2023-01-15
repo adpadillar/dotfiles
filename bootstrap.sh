@@ -21,3 +21,6 @@ source tmux/install.sh
 source alacritty/install.sh && source alacritty/config.sh
 source visual-studio-code/install.sh
 source rectangle/install.sh
+
+# Macos sensible defaults
+sh macos/setup.sh
