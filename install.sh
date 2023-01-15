@@ -8,6 +8,7 @@ sh ohmyzsh/install.sh
 sh nvm/install.sh
 
 source $HOME/.zprofile
+source $HOME/.zshrc
 
 # node 16 w/yarn
 sh node/16/install.sh && sh node/16/yarn/install.sh
