@@ -1,3 +1,1 @@
-echo "INSTALLING GNUPG"
 brew install gnupg
-echo "SUCCESFULLY INSTALLED GNUPG"

@@ -1,4 +1,3 @@
-echo "INSTALLING BREW"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Add to path
@@ -7,4 +6,3 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
 
 # Run in current session
 eval "$(/opt/homebrew/bin/brew shellenv)"
-echo "SUCCESSFULLY INSTALLED BREW"

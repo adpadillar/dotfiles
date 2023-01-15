@@ -1,3 +1,1 @@
-echo "INSTALLING NODE 16"
 nvm install 16
-echo "SUCCESSFULLY INSTALLED NODE 16"
