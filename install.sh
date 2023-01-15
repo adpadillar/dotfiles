@@ -1,8 +1,13 @@
-# brew
-sh brew/install.sh
+# ohmyzsh
+sh ohmyzsh/install.sh
 
 # nvm
 sh nvm/install.sh
+
+# brew
+sh brew/install.sh
+
+source $HOME/.zprofile
 
 # node 16 w/yarn
 sh node/16/install.sh && sh node/16/yarn/install.sh
@@ -31,6 +36,3 @@ sh visual-studio-code/install.sh
 
 # rectangle
 sh rectangle/install.sh
-
-# ohmyzsh
-sh ohmyzsh/install.sh
