@@ -22,7 +22,7 @@ source gnupg/install.sh
 source tmux/install.sh
 
 # CASKS
-source alacritty/install.sh && source alacritty/config.sh
+source alacritty/install.sh && source alacritty/setup.sh
 source visual-studio-code/install.sh
 source rectangle/install.sh
 source firefox/install.sh
