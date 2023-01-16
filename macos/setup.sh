@@ -165,7 +165,7 @@ defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 # Save screenshots to dedicated folder
-mkdir "$HOME/Screenshots"
+mkdir -p "$HOME/Screenshots"
 defaults write com.apple.screencapture location -string "${HOME}/Screenshots"
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
@@ -734,6 +734,12 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 # defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "continuousSpellCheckingEnabled" -bool false
 
 ###############################################################################
+# Custom                                                                      #
+###############################################################################
+
+mkdir -p $HOME/Projects.nosync
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
@@ -754,3 +760,4 @@ for app in "Activity Monitor" \
 	killall "${app}" &> /dev/null
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
+

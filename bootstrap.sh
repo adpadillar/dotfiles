@@ -1,26 +1,40 @@
-# brew
+####################
+### INSTALATION  ###
+####################
+
+# BREW
 source brew/install.sh
 
-# ohmyzsh
+# OH MY ZSH
 source ohmyzsh/install.sh
 
-# nvm
+# NVM
 source nvm/install.sh
 
-# node 16 w/yarn
-source node/16/install.sh && sh node/16/yarn/install.sh
+# NODE
+source node/16/install.sh
 
-# Brew formulae
+# FORMULAES
 source neofetch/install.sh
 source bat/install.sh
 source htop/install.sh
 source gnupg/install.sh
 source tmux/install.sh
 
-# Brew casks
+# CASKS
 source alacritty/install.sh && source alacritty/config.sh
 source visual-studio-code/install.sh
 source rectangle/install.sh
+source firefox/install.sh
+source chromium/install.sh
+source google-chrome/install.sh
 
-# Macos sensible defaults
-sh macos/setup.sh
+####################
+###    SETUP     ###
+####################
+
+# MACOS
+source macos/setup.sh
+
+# GIT
+source git/setup.sh
