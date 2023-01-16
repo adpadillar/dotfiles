@@ -33,8 +33,8 @@ source google-chrome/install.sh
 ###    SETUP     ###
 ####################
 
-# MACOS
-source macos/setup.sh
-
 # GIT
 source git/setup.sh
+
+# MACOS
+source macos/setup.sh
