@@ -29,13 +29,3 @@ source rectangle/install.sh
 source firefox/install.sh
 source chromium/install.sh
 source google-chrome/install.sh
-
-####################
-###    SETUP     ###
-####################
-
-# GIT
-source git/setup.sh
-
-# MACOS
-source macos/setup.sh
