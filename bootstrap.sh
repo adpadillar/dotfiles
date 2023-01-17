@@ -21,6 +21,7 @@ source bat/install.sh
 source htop/install.sh
 source gnupg/install.sh
 source tmux/install.sh && source tmux/setup.sh
+source tree/install.sh
 
 # CASKS
 source alacritty/install.sh && source alacritty/setup.sh
