@@ -13,6 +13,7 @@ source nvm/install.sh
 
 # NODE
 source node/16/install.sh
+source node/16/yarn/install.sh
 
 # FORMULAES
 source neofetch/install.sh
