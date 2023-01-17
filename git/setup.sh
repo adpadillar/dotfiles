@@ -1,9 +1,12 @@
+GIT_NAME="YOUR NAME"
+GIT_EMAIL="your@email.com"
+
 # .gitconfig name and email
-git config --global user.name "Axel Padilla"
-git config --global user.email "adpadillar25@gmail.com"
+git config --global user.name "$GIT_NAME"
+git config --global user.email "$GIT_EMAIL"
 
 # You need to configure gpg signing now
-GPG_USER_ID="Axel Padilla <adpadillar25@gmail.com>"
+GPG_USER_ID="$GIT_NAME <$GIT_EMAIL>"
 GPG_ALGO="rsa4096"
 GPG_USAGE="default"
 GPG_EXPIRE="3m"
