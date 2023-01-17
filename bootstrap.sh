@@ -19,7 +19,7 @@ source neofetch/install.sh
 source bat/install.sh
 source htop/install.sh
 source gnupg/install.sh
-source tmux/install.sh
+source tmux/install.sh && source tmux/setup.sh
 
 # CASKS
 source alacritty/install.sh && source alacritty/setup.sh
