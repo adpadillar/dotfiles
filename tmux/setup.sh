@@ -1,4 +1,4 @@
-CONFIG_FILE="alacritty.yml"
+CONFIG_FILE=".tmux.conf"
 
 # Symlink
-ln -s $PWD/alacritty/$CONFIG_FILE $HOME/$CONFIG_FILE
+ln -s $PWD/tmux/$CONFIG_FILE $HOME/$CONFIG_FILE
