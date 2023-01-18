@@ -737,7 +737,11 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 # Custom                                                                      #
 ###############################################################################
 
+# Code directory
 mkdir -p $HOME/Projects.nosync
+
+# Hide desktop icons
+defaults write com.apple.finder CreateDesktop false
 
 ###############################################################################
 # Kill affected applications                                                  #
