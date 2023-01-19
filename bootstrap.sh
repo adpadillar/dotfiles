@@ -36,3 +36,4 @@ source google-chrome/install.sh
 source obs/install.sh
 source vlc/install.sh
 source discord/install.sh
+source mark-text/install.sh
