@@ -32,3 +32,4 @@ source rectangle/install.sh
 source firefox/install.sh
 source chromium/install.sh
 source google-chrome/install.sh
+source obs/install.sh
