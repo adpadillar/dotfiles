@@ -24,6 +24,7 @@ source tmux/install.sh && source tmux/setup.sh
 source tree/install.sh
 source wget/install.sh
 source cmake/install.sh
+source blackhole-2ch/install.sh
 
 # CASKS
 source alacritty/install.sh && source alacritty/setup.sh
