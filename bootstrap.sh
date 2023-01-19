@@ -34,3 +34,4 @@ source chromium/install.sh
 source google-chrome/install.sh
 source obs/install.sh
 source vlc/install.sh
+source discord/install.sh
