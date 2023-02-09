@@ -9,9 +9,6 @@
 #import:
 #  - /path/to/alacritty.yml
 # 
-# THIS IS SYMLINKED?
-# It looks like it is
-#
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
@@ -25,10 +22,10 @@
   #TERM: alacritty
 
 font:
-  size: 15.0
+  size: 16.0
 
 window:
-  opacity: 1
+  opacity: 0.95
   # Window dimensions (changes require restart)
   #
   # Number of lines/columns (not pixels) in the terminal. Both lines and columns
@@ -52,8 +49,8 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 10
-    y: 10
+    x: 0
+    y: 0
 
   # Spread additional padding evenly around the terminal content.
   #dynamic_padding: false
