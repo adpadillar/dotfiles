@@ -25,10 +25,10 @@
   #TERM: alacritty
 
 font:
-  size: 16.0
+  size: 15.0
 
 window:
-  opacity: 0.85
+  opacity: 1
   # Window dimensions (changes require restart)
   #
   # Number of lines/columns (not pixels) in the terminal. Both lines and columns
