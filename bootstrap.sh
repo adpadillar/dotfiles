@@ -15,6 +15,9 @@ source nvm/install.sh
 source node/16/install.sh
 source node/16/yarn/install.sh
 
+# RUST
+source rust/install.sh
+
 # FORMULAES
 source neofetch/install.sh
 source bat/install.sh
