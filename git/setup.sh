@@ -14,6 +14,9 @@ GPG_EXPIRE="3m"
 # Generate key
 gpg --quick-gen-key $GPG_USER_ID $GPG_ALGO $GPG_USAGE $GPG_EXPIRE
 
+# TO RENEW THIS KEY LATER, SEE:
+# https://superuser.com/questions/813421/can-you-extend-the-expiration-date-of-an-already-expired-gpg-key
+
 # Export key
 echo "Add this key to: https://github.com/settings/gpg/new \n"
 gpg --armor --export $GPG_USER_ID
