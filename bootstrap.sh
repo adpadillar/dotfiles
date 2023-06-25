@@ -12,8 +12,8 @@ source ohmyzsh/install.sh
 source nvm/install.sh
 
 # NODE
-source node/16/install.sh
-source node/16/yarn/install.sh
+source node/18/install.sh
+source pnpm/install.sh
 
 # RUST
 source rust/install.sh
@@ -40,5 +40,5 @@ source google-chrome/install.sh
 source obs/install.sh
 source vlc/install.sh
 source discord/install.sh
-source mark-text/install.sh
 source figma/install.sh
+source tor-browser/install.sh
