@@ -42,3 +42,4 @@ source vlc/install.sh
 source discord/install.sh
 source figma/install.sh
 source tor-browser/install.sh
+source spotify/install.sh
