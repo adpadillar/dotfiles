@@ -1,5 +1,5 @@
 ALACRITTY_PATH="$HOME/.config/alacritty"
-CONFIG_FILE="alacritty.yml"
+CONFIG_FILE="alacritty.toml"
 
 # Remove .config/alacritty
 rm -rf $ALACRITTY_PATH
