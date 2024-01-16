@@ -1,1 +1,1 @@
-brew installl spotify
+brew install spotify
