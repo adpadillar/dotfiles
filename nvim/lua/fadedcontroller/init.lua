@@ -1,2 +1,2 @@
-require("fadedcontroller.remap")
-require("fadedcontroller.set")
+require("fadedcontroller.set");
+require("fadedcontroller.remap");
