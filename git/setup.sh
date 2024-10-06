@@ -1,5 +1,5 @@
-GIT_NAME="YOUR NAME"
-GIT_EMAIL="your@email.com"
+GIT_NAME="Axel Padilla"
+GIT_EMAIL="adpadillar25@gmail.com"
 
 # .gitconfig name and email
 git config --global user.name "$GIT_NAME"

@@ -12,7 +12,7 @@ source ohmyzsh/install.sh
 source nvm/install.sh
 
 # NODE
-source node/18/install.sh
+source node/20/install.sh
 source pnpm/install.sh
 
 # RUST
@@ -27,19 +27,13 @@ source tmux/install.sh && source tmux/setup.sh
 source tree/install.sh
 source wget/install.sh
 source cmake/install.sh
-source blackhole-2ch/install.sh
-source nvim/install.sh && source nvim/setup.sh
 
 # CASKS
 source alacritty/install.sh && source alacritty/setup.sh
 source visual-studio-code/install.sh
 source rectangle/install.sh
-source firefox/install.sh
-source chromium/install.sh
 source google-chrome/install.sh
-source obs/install.sh
 source vlc/install.sh
 source discord/install.sh
 source figma/install.sh
-source tor-browser/install.sh
-source spotify/install.sh
+
