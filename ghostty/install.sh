@@ -1,1 +1,1 @@
-brew install --cast ghostty
+brew install --cask ghostty
