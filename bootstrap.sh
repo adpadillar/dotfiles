@@ -12,7 +12,7 @@ source ohmyzsh/install.sh
 source nvm/install.sh
 
 # NODE
-source node/20/install.sh
+source node/24/install.sh
 source pnpm/install.sh
 
 # RUST
@@ -29,11 +29,5 @@ source wget/install.sh
 source cmake/install.sh
 
 # CASKS
-source alacritty/install.sh && source alacritty/setup.sh
-source visual-studio-code/install.sh
-source rectangle/install.sh
+source ghostty/install.sh
 source google-chrome/install.sh
-source vlc/install.sh
-source discord/install.sh
-source figma/install.sh
-
